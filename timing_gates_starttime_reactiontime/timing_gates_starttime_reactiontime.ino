@@ -27,7 +27,7 @@ void loop() {
     previousVal=currentVal;
     if(previousVal>960 && flag2==0){
       reactiontime = millis();
-      //Sending data to the server
+      //Send data to the server
       previousVal=0;
    
   } }
